@@ -48,7 +48,7 @@ bazel_dep(
 )
 bazel_dep(
     name = "riegeli",
-    version = "0.0.0-20240606-973b6f0",
+    version = "0.0.0-20241218-3385e3c",
     repo_name = "com_google_riegeli",
 )
 
