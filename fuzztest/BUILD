@@ -15,7 +15,8 @@
 # FuzzTest: a coverage-guided fuzzing / property-based testing framework.
 
 load("@bazel_skylib//rules:common_settings.bzl", "bool_flag")
-load("@rules_proto//proto:defs.bzl", "proto_library")
+load("@protobuf//bazel:proto_library.bzl", "proto_library")
+load("@protobuf//bazel:cc_proto_library.bzl", "cc_proto_library")
 
 package(default_visibility = ["//visibility:public"])
 
